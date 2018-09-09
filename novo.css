@@ -1,0 +1,114 @@
+body{
+	font-family: gothamBook;
+	overflow-x: hidden; 
+	 position: relative;
+	 background-image: url('background.jpg');
+}
+#str{
+	font-family: gothamBold;
+}
+
+
+.nav ul{
+	margin-left:50%;
+}
+.nav ul li {
+	font-weight: bold !important;
+
+}
+.active{
+	background-color: #675d5d;
+}
+
+.ul li a {
+	color: #fff !important;
+}
+
+.form-group label{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#btn_enviar{
+    text-align: right;
+}
+#btn_enviar button{
+	background-color: #6a0031;
+    color: #fff;
+}
+
+#text_contatos{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.card-img-top{
+	max-height: 300px;
+    max-width: 300px;
+}
+
+#img-carousel {
+	min-height: 600px;
+    max-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+ }
+
+.myCarousel {
+	min-height: 600px;
+    max-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+ }
+.carousel-item a{
+	background-color: #6a0031;
+    color: #fff;
+    font-family: gothamMedium;
+    border-color: #fff;
+}
+ul{
+ 	list-style: none;
+}
+ul button{
+ 	color: #fff;
+ 	text-transform: uppercase;
+}
+.btn-link{
+ 	color: #fff;
+    font-weight: bold;
+}
+.carousel-indicators{
+	bottom: 20px !important;
+}
+.socials{
+	font-family: gothamMedium;
+	color: #fffs;
+}
+#text_contatos span{
+	font-size: 10px;
+}
+#exampleModalLongTitle{
+	color: #000;
+	font-family: gothamMedium;
+}
+
+
+@font-face{
+	font-family: gothamBook;
+	src: url('fonts/Gotham-Book_0.otf');
+}
+@font-face{
+	font-family: gothamUltra;
+	src: url('fonts/Gotham-Ultra_0.otf');
+}
+@font-face{
+	font-family: gothamMedium;
+	src: url('fonts/Gotham-Medium_0.otf');
+}
+@font-face{
+	font-family: gothamBold;
+	src: url('fonts/Gotham-Bold_0.otf');
+}
+
